@@ -12,7 +12,7 @@ class _PersonalaiState extends State<Personalai> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text("This is PeronalAI Screen")),
+      body: const Center(child: Text("This is PeronalAI Screen")),
       bottomNavigationBar: CommonNavBar(
         currentIndex: _currentIndex,
         onTap: (index) {

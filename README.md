@@ -5,4 +5,3 @@
 3. Explore
 4. Assistance 
 5. Settings
-

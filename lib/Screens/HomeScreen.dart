@@ -19,22 +19,22 @@ class _HomescreenState extends State<Homescreen> {
             Container(
               width: double.infinity,
               height: 100,
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Align(
+            child: const Padding(
+                padding:  EdgeInsets.all(8.0),
+                child:  Align(
                     alignment: Alignment.centerLeft,
                     child: Text(
-                      "Hello",
+                      "Hello Username",
                       style:
-                          TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                      TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                     )
                 ),
               ),
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.orange,
                 borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(25),
-                    bottomRight: Radius.circular(25)),
+                    bottomLeft:  Radius.circular(20),
+                    bottomRight: Radius.circular(20)),
               ),
             )
           ],

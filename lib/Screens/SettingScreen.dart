@@ -12,7 +12,7 @@ class _SettingscreenState extends State<Settingscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text("This is Setting Screen")),
+      body: const Center(child: Text("This is Setting Screen")),
       bottomNavigationBar: CommonNavBar(
         currentIndex: _currentIndex,
         onTap: (index) {

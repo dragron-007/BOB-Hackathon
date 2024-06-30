@@ -13,7 +13,7 @@ class _ExplorescreenState extends State<Explorescreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text("This is Explore Screen")),
+      body: const Center(child: Text("This is Explore Screen")),
       bottomNavigationBar: CommonNavBar(
         currentIndex: _currentIndex,
         onTap: (index) {

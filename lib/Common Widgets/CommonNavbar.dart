@@ -11,16 +11,16 @@ class CommonNavBar extends StatelessWidget {
   CommonNavBar({required this.currentIndex, required this.onTap});
 
   final List<Widget> _pages = [
-    Homescreen(),
-    Trackerscreen(),
-    Explorescreen(),
-    Personalai(),
-    Settingscreen(),
+    const Homescreen(),
+    const Trackerscreen(),
+    const Explorescreen(),
+    const Personalai(),
+    const Settingscreen(),
   ];
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
+    // final theme = Theme.of(context);
 
     return BottomNavigationBar(
       currentIndex: currentIndex,
@@ -49,27 +49,27 @@ class CommonNavBar extends StatelessWidget {
         }
       },
       items: [
-        BottomNavigationBarItem(
+        const BottomNavigationBarItem(
           icon: Icon(Icons.home),
           label: 'Home',
           backgroundColor: Colors.orange,
         ),
-        BottomNavigationBarItem(
+        const BottomNavigationBarItem(
           icon: Icon(Icons.track_changes),
           label: 'Financial Tracker',
           backgroundColor: Colors.orange,
         ),
-        BottomNavigationBarItem(
+        const BottomNavigationBarItem(
           icon: Icon(Icons.explore),
           label: 'Explore',
           backgroundColor: Colors.orange,
         ),
-        BottomNavigationBarItem(
+        const BottomNavigationBarItem(
           icon: Icon(Icons.person_pin_rounded),
           label: 'Personal Assistant',
           backgroundColor: Colors.orange,
         ),
-        BottomNavigationBarItem(
+        const BottomNavigationBarItem(
           icon: Icon(Icons.settings),
           label: 'Settings',
           backgroundColor: Colors.orange,
